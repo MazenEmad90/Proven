@@ -1,137 +1,88 @@
-Proven
+🚀 Proven
+AI-Powered Marketplace for Graduation Projects
 
-Proven is an AI-powered marketplace that bridges the gap between talented graduates and companies by transforming graduation projects into discoverable business solutions.
 
-The platform allows graduates to showcase their projects and enables companies to find, evaluate, and acquire projects that meet their needs using AI-powered recommendations.
+FlutterFirebaseIBM WatsonxLicense
 
-Problem
-Many graduation projects contain valuable ideas and working solutions, but most of them are forgotten after graduation.
+🎯 The Problem
+Every year thousands of graduation projects are built...
 
-At the same time, companies are constantly searching for innovative and cost-effective solutions.
+Unfortunately most of them disappear after graduation.
 
-Proven connects both sides through a single platform.
+Meanwhile companies spend months searching for innovative solutions and talented developers.
 
-Solution
-Graduates can publish their projects with:
+💡 Our Solution
+Proven transforms graduation projects into market-ready opportunities.
 
-Project description
-Screenshots
-Demo links
-GitHub repositories
-Pricing information
-Technology stack
-Companies can:
-
-Browse projects
-Filter by category and price
-View project details
-Contact developers
-Request project purchase
-Use AI recommendations to discover the most relevant projects
-Features
-Creator
-Register and login
-Create profile
+Graduate Uploads Project
+          │
+          ▼
+      Proven AI
+          │
+          ▼
+Company Finds Best Match
+          │
+          ▼
+ Purchase or Contact
+ 
+ ✨ Features
+ 
+👨‍🎓 Creator
 Upload projects
-Add demo and GitHub links
-Track project requests
-Receive company inquiries
-Company
-Register and login
-Browse approved projects
-Search and filter projects
-View project details
-Contact project owners
-Submit purchase requests
-AI-powered project recommendations
-Admin
-Review submitted projects
-Approve or reject projects
+Add GitHub link
+Add Live Demo
+Set pricing
+Manage requests
+🏢 Company
+Explore projects
+Smart search
+Contact developers
+Request purchase
+
+🤖 AI Assistant
+Understand company needs
+Recommend projects
+Improve discovery
+
+🛠️ Admin
+Approve projects
 Manage users
-Monitor platform activity
-View statistics and reports
-AI Recommendation System
-Companies describe their requirements, and the AI recommends the most relevant projects available on the platform.
+View analytics
 
-Example:
-
-Input: "I need a clinic management system."
-
-Output:
-
-Smart Clinic System
-Medical ERP Platform
-Healthcare Booking System
-Tech Stack
-Frontend
-Flutter
-Backend
-Firebase / Node.js
-Database
-Firestore / PostgreSQL
-Authentication
-Firebase Authentication
-Storage
+🏗️ System Architecture
+Flutter App
+      │
+      ▼
+Firebase Auth
+      │
+      ▼
+Firestore Database
+      │
+      ▼
 Firebase Storage
-AI
-IBM watsonx Assistant
-Database Design
-Users
-id
-name
-email
-password
-role
-bio
-skills
-Projects
-id
-title
-description
-price
-category
-demo_link
-github_link
-status
-owner_id
-ProjectImages
-id
-project_id
-image_url
-Orders
-id
-project_id
-company_id
-price
-commission
-status
-Reviews
-id
-project_id
-rating
-comment
-User Roles
-Creator
-Uploads and manages projects.
+      │
+      ▼
+IBM Watsonx AI
 
-Company
-Discovers and acquires projects.
+🗄️ Database Design
+<img width="1985" height="2268" alt="image" src="https://github.com/user-attachments/assets/37a0a8bd-0bdc-46f1-a4aa-d668d5876f74" />
 
-Admin
-Moderates and approves content.
+🔥 AI Recommendation Flow
+Company Request
+       │
+       ▼
+AI Analysis
+       │
+       ▼
+Match Existing Projects
+       │
+       ▼
+Top 3 Recommendations
 
-Future Enhancements
+🚀 Future Roadmap
 Online Payments
 Escrow System
-Project Verification
 Legal Contracts
-Company Bidding System
-AI Talent Matching
-Advanced Analytics
-Team Vision
-Our goal is to transform graduation projects from academic requirements into market-ready products and create opportunities for talented graduates to showcase their skills and innovations.
-
-Team
-Graduation Project 2027
-
-Developed with ❤️ using Flutter, Firebase, and AI.
+Project Verification
+AI Matching Score
+Recruitment Integration
