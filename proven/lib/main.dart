@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:proven/constants/bottom_nav.dart';
-import 'package:proven/features/market_page.dart';
+import 'package:proven/features/marketPlace/market_page.dart';
 
 void main() {
   runApp(const MyApp());
